@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Mobile view */
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    body {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 10vw;
+    }
+    .mobile{
+        display: contents;
+        font-size: 10vw;
+    }
+.btn-outline-secondary {
+    height:20%; 
+    width:auto; 
+    margin: 1%; 
+    position:relative;
+    top:50%;
+    left:0%;
+}
+
+.dropzone {
+    max-width: 80%;
+}
+
+.info {
+    margin-top: 30%;
+}
+
+.status {
+    width: 80%;
+}
+
+.image-url {
+    width: 80%;
+}
+
+.loading-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+
+}

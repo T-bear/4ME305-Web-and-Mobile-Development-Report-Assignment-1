@@ -1,0 +1,24 @@
+extends layout
+
+block content
+    div.container
+      div.content
+      if (!user)
+        h1 log in or register
+        div.mobile
+         if (!user)
+         button.btn.btn-outline-secondary(type='button', onclick="window.location.href = '/login';") LOGIN
+         button.btn.btn-outline-secondary(type='button', onclick="window.location.href = '/register';") REGISTER
+      if (user)
+        h1 Welcome #{user.username}
+        div.row
+            div.col-xs-12.col-sm-4
+                
+            div.col-xs-12.col-sm-4
+                button.btn.btn-outline-secondary(type='button', onclick="window.location.href = '/localhost:5000';") UPLOAD
+            div.col-xs-12.col-sm-4
+                
+
+        
+
+        
